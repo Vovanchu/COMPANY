@@ -16,11 +16,6 @@ a{
 
 .header{
     background: #FFFFFF;
-    display: flex;
-}
-
-.menu-nav{
-    display: flex;
 }
 
 .logo-link{
@@ -31,8 +26,7 @@ a{
         line-height: 31px;
         letter-spacing: 0.03em;
         color: #2196F3;
-        margin-left: 150px;
-        margin-top: 50px;
+        margin-left: 860px;
 }
 
 .logo-accent{
@@ -48,13 +42,13 @@ a{
 .header-list{
     display: flex;
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 690px;
 }
 
 .studio{
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 16px;
     letter-spacing: 0.02em;
     margin-right: 50px;
@@ -63,10 +57,6 @@ a{
 
 .studio-name{
     color: #212121;
-    font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
 }
 
 .studio-name:hover,
@@ -77,7 +67,7 @@ letter-spacing: 0.02em;
 .portfolio{
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 20px;
         line-height: 16px;
         letter-spacing: 0.02em;
         margin-right: 50px;
@@ -99,7 +89,7 @@ letter-spacing: 0.02em;
 .contacts{
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 20px;
         line-height: 16px;
         letter-spacing: 0.02em;
 }
@@ -113,104 +103,25 @@ letter-spacing: 0.02em;
     color: #2196F3;
 }
 
-.mg-tel{
-    display: flex;
-    margin-top: 56px;
-    margin-left: 300px;
-}
-
-.gm{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color: #757575;
-        margin-right: 50px;
-}
-
-.gm:hover,
-.gm:focus{
-    color: #2196F3;
-}
-
-.tel{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color: #757575;
-}
-
-.tel:hover,
-.tel:focus{
-    color: #2196F3;
-}
-
 .section-one{
-    background: #2F303A;
     height: 600px;
 }
 
-.container-box{
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
 .main-txt{
+    font-family: "Raleway";
     width: 700px;
         font-weight: 900;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: #000000;
         text-align: center;
         font-size: 44px;
         line-height: 1.36;
-        margin-bottom: 30px;
-        margin-left: 580px;
-        padding-top: 150px;
-}
-
-.button{
-    cursor: pointer;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: #fff;
-    background: #2196f3;
-    border-color: transparent;
-    border-radius: 4px;
-    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),-webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),-webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),-webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px 32px;
-    padding-top: 10px;
-    padding-right: 32px;
-    padding-bottom: 10px;
-    padding-left: 32px;
+        text-shadow: 0 0 1em hsl(200, 100%, 50%),
+        0 0 0.125em hsl(350, 100%, 30%),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
+        padding-top: 200px;
+        padding-left: 570px;
 }
 
 .section-two-header{
@@ -265,10 +176,16 @@ letter-spacing: 0.02em;
             color: var(#212121);
 }
 
+.worker1-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .worker{
     background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
+        width:270px;
 }
 
 .worker-name{
